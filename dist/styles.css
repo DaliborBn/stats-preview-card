@@ -8533,7 +8533,7 @@ a {
     margin-top: 2rem;
     margin-bottom: 3.6rem; }
   .description .stats:nth-child(1), .description .stats:nth-child(2) {
-    margin-bottom: 2rem; }
+    margin-bottom: 2.5rem; }
   .description h2, .description .h2 {
     font-family: var(--inter);
     font-size: 2.6rem;
