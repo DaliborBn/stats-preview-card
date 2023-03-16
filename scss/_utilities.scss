@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+$lexen-deca: 'Lexend Deca', sans-serif;
+$inter: 'Inter', sans-serif;
+
+$main-paragraph: hsla(0, 0%, 100%, 0.75);
+$stat-headings: hsla(0, 0%, 100%, 0.6);
+$violet: hsl(278, 100%, 34%);
+$light-violet: rgb(203, 63, 203);
+
+$enable-rfs: false;
+
+$paragraph-margin-bottom: 0;
+$headings-margin-bottom: 0;
+
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+$custom-colors: (
+"main-background": hsl(233, 47%, 7%),
+"card-background": hsl(244, 38%, 16%),
+);
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+html {
+  font-size: 62.5%;
+}
